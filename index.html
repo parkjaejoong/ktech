@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국기술</title>
+
+            <!--리믹스아이콘-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--인스타 페이스북 트위터-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        
+        <!--글꼴-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+        <!--에니메이션-->
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+        <!--스와이퍼-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./css/com.css">
+        <link rel="stylesheet" href="./css/main.css">
+  <!-- GSAP의 scrollTrigger => 2개의 cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+       
+</head>
+
+
+
+<body>
+<div id="smooth-wrapper">
+<div id="smooth-content">
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@헤더@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+        <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#" class="header-logo"><span class="blind">k-tech</span></a>
+            
+            <nav class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">제품정보</a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">나에게 맞는 제품찾기</a>
+                        <a href="#" class="dropdown-item">3D프린터</a>
+                        <a href="#" class="dropdown-item">3D스캐너 & 소프트웨어</a>
+                        <a href="#" class="dropdown-item">재료</a>
+                    </div>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link">시제품 제작</a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">서비스 안내</a>
+                        <a href="#" class="dropdown-item">제작문의 현황</a>
+                        <a href="#" class="dropdown-item">포트폴리오</a>
+                    </div>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link">활용 사례</a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">활용 사례</a>
+                        <a href="#" class="dropdown-item">업계 소식</a>
+                    </div>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link">고객센터</a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">고객 문의</a>
+                        <a href="#" class="dropdown-item">유지 보수(A/S)</a>
+                        <a href="#" class="dropdown-item">공지사항</a>
+                        <a href="#" class="dropdown-item">자료실</a>
+                    </div>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link">회사소개</a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">한국기술 소개</a>
+                        <a href="#" class="dropdown-item">CEO 인사말</a>
+                        <a href="#" class="dropdown-item">연혁 및 비전</a>
+                        <a href="#" class="dropdown-item">조직도</a>
+                        <a href="#" class="dropdown-item">주요고객</a>
+                        <a href="#" class="dropdown-item">오시는 길</a>
+                    </div>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link">견적문의</a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">3D 프린터 견적 문의</a>
+                        <a href="#" class="dropdown-item">시제품 제작 문의</a>
+                        <a href="#" class="dropdown-item">소프트웨어, 스캐너 문의</a>
+                    </div>
+                </li>
+
+
+            </nav>
+            <div class="nav-item">
+                <div class="set-aline">
+                    <div class="nav-slink"><i class="ri-search-line"></i></div>
+                    <div class="nav-slink"><i class="ri-earth-fill"></i></div>
+                    <div class="nav-slink"><i class="ri-menu-3-line"></i></div>
+                </div>
+            </div>           
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <!-- 모바일 메뉴 -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">제품정보</a>
+                <div class="mobile-dropdown">
+                    <a href="#" class="mobile-dropdown-item">나에게 맞는 제품찾기</a>
+                    <a href="#" class="mobile-dropdown-item">3D프린터</a>
+                    <a href="#" class="mobile-dropdown-item">3D스캐너 & 소프트웨어</a>
+                    <a href="#" class="mobile-dropdown-item">재료</a>
+                </div>
+            </div>
+            
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">시제품 제작</a>
+                <div class="mobile-dropdown">
+                    <a href="#" class="mobile-dropdown-item">서비스 안내</a>
+                    <a href="#" class="mobile-dropdown-item">제작문의 현황</a>
+                    <a href="#" class="mobile-dropdown-item">포트폴리오</a>
+                </div>
+            </div>
+            
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">활용 사례</a>
+                <div class="mobile-dropdown">
+                    <a href="#" class="mobile-dropdown-item">활용 사례</a>
+                    <a href="#" class="mobile-dropdown-item">업계 소식</a>
+                </div>
+            </div>
+            
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">고객센터</a>
+                <div class="mobile-dropdown">
+                    <a href="#" class="mobile-dropdown-item">고객 문의</a>
+                    <a href="#" class="mobile-dropdown-item">유지 보수(A/S)</a>
+                    <a href="#" class="mobile-dropdown-item">공지사항</a>
+                    <a href="#" class="mobile-dropdown-item">자료실</a>
+                </div>
+            </div>
+            
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">회사소개</a>
+                <div class="mobile-dropdown">
+                    <a href="#" class="mobile-dropdown-item">한국기술 소개</a>
+                    <a href="#" class="mobile-dropdown-item">CEO 인사말</a>
+                    <a href="#" class="mobile-dropdown-item">연혁 및 비전</a>
+                    <a href="#" class="mobile-dropdown-item">조직도</a>
+                    <a href="#" class="mobile-dropdown-item">주요고객</a>
+                    <a href="#" class="mobile-dropdown-item">오시는 길</a>
+                </div>
+            </div>
+
+            <div class="mobile-nav-item">
+                <a href="#" class="mobile-nav-link">견적문의</a>
+                <div class="mobile-dropdown">
+                    <a href="#" class="mobile-dropdown-item">3D 프린터 견적 문의</a>
+                    <a href="#" class="mobile-dropdown-item">시제품 제작 문의</a>
+                    <a href="#" class="mobile-dropdown-item">소프트웨어, 스캐너 문의</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@section01@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<main> 
+<section class="video-carousel sectionmain" id="section01">
+    <!--    <div class="carousel-header">
+            <h1 class="carousel-title"> </h1>
+            <p class="carousel-subtitle">  </p>
+        </div>-->
+
+        <div class="video-container">
+            <!-- 비디오 1 -->
+            <div class="video-slide active" data-video="1">
+                <video muted loop>
+                    <source src="./vd/video1.mp4" type="video/mp4">
+                    브라우저가 비디오를 지원하지 않습니다.
+                </video>
+                <div class="video-overlay"></div>
+                <div class="video-info">
+                    <h2 class="video-title">3D PRINTING TOTAL SOLUTION</h2>
+                    <p class="video-description">국내 최대, 최고의 PRODUCTION  3D Printing Solution 전문기업 (주)한국기술이 귀사의 생산성 향상에 크게 기여하겠습니다.</p>
+                </div>
+            </div>
+
+            <!-- 비디오 2 -->
+            <div class="video-slide" data-video="2">
+                <video muted loop>
+                    <source src="./vd/video2.mp4" type="video/mp4">
+                    브라우저가 비디오를 지원하지 않습니다.
+                </video>
+                <div class="video-overlay"></div>
+                <div class="video-info">
+                    <h2 class="video-title">3D PRINTING TOTAL SOLUTION</h2>
+                    <p class="video-description">국내 최대, 최고의 PRODUCTION  3D Printing Solution 전문기업 (주)한국기술이 귀사의 생산성 향상에 크게 기여하겠습니다.</p>
+                </div>
+            </div>
+
+            <!-- 비디오 3 -->
+            <div class="video-slide" data-video="3">
+                <video muted loop>
+                    <source src="./vd/video3.mp4" type="video/mp4">
+                    브라우저가 비디오를 지원하지 않습니다.
+                </video>
+                <div class="video-overlay"></div>
+                <div class="video-info">
+                    <h2 class="video-title">3D PRINTING TOTAL SOLUTION</h2>
+                    <p class="video-description">국내 최대, 최고의 PRODUCTION  3D Printing Solution 전문기업 (주)한국기술이 귀사의 생산성 향상에 크게 기여하겠습니다.</p>
+                </div>
+            </div>
+
+            <!-- 비디오 4 -->
+            <div class="video-slide" data-video="4">
+                <video muted loop>
+                    <source src="./vd/video4.mp4" type="video/mp4">
+                    브라우저가 비디오를 지원하지 않습니다.
+                </video>
+                <div class="video-overlay"></div>
+                <div class="video-info">
+                    <h2 class="video-title">3D PRINTING TOTAL SOLUTION</h2>
+                    <p class="video-description">국내 최대, 최고의 PRODUCTION  3D Printing Solution 전문기업 (주)한국기술이 귀사의 생산성 향상에 크게 기여하겠습니다.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="play-pause-btn" id="playPauseBtn">정지</button>
+            <div class="progress-container" id="progressContainer">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <div class="time-display" id="timeDisplay">00:05</div>
+        </div>
+
+        <div class="video-indicators">
+            <div class="indicator active" data-slide="0"></div>
+            <div class="indicator" data-slide="1"></div>
+            <div class="indicator" data-slide="2"></div>
+            <div class="indicator" data-slide="3"></div>
+        </div>
+</section> 
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@section02@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<section class="section mrem10" id="section02">
+
+  <div class="centerline main-textline3">
+        <h2><strong>3D PRINTER</strong> 도입을 검토하고 계십니까?</h2>
+        <p>(주)한국기술에서는 몇 번의 클릭만으로도 귀사가 원하시는 3D프린터를 찾을 수 있습니다.</p>
+        <p>3D프린터 도입 검토를 위한 다양한 활용사례와 기술자료도 손쉽게 찾을 수 있습니다.</p>
+    </div>
+    <div class="list">
+      <div class="bg">
+        <div class="bg1 active"></div>
+        <div class="bg2"></div>
+        <div class="bg3"></div>
+      </div>
+      <ul class="card-container">
+          <li class="card parallax" data-hover="hover1">
+            <div class="card-content">
+                <h3>나에게 맞는 제품</h3>
+                <a href="#" class="icon-link">자세히 보기 <i class="ri-arrow-right-up-line"></i></a>
+            </div>
+          </li>
+          <li class="card parallax" data-hover="hover2">
+          <div class="card-content">
+              <h3>활용 사례</h3>
+              <a href="#" class="icon-link">자세히 보기 <i class="ri-arrow-right-up-line"></i></a>
+          </div>
+          </li>
+          <li class="card parallax" data-hover="hover3">
+          <div class="card-content">
+              <h3>기술 자료</h3>
+              <a href="#" class="icon-link">자세히 보기 <i class="ri-arrow-right-up-line"></i></a>
+          </div>
+          </li>
+      </ul>
+  </div>
+
+<!--    <div class="centerline main-textline3">
+        <h2><strong>3D PRINTER</strong> 도입을 검토하고 계십니까?</h2>
+        <p>(주)한국기술에서는 몇 번의 클릭만으로도 귀사가 원하시는 3D프린터를 찾을 수 있습니다.</p>
+        <p>3D프린터 도입 검토를 위한 다양한 활용사례와 기술자료도 손쉽게 찾을 수 있습니다.</p>
+    </div>
+    <ul class="card-container">
+        <li class="card parallax" data-hover="hover1">
+        <div class="card-content">
+            <h3>나에게 맞는 제품</h3>
+            <a href="#" class="icon-link">자세히 보기 <i class="ri-arrow-right-up-line"></i></a>
+        </div>
+        </li>
+        <li class="card parallax" data-hover="hover2">
+        <div class="card-content">
+            <h3>활용 사례</h3>
+            <a href="#" class="icon-link">자세히 보기 <i class="ri-arrow-right-up-line"></i></a>
+        </div>
+        </li>
+        <li class="card parallax" data-hover="hover3">
+        <div class="card-content">
+            <h3>기술 자료</h3>
+            <a href="#" class="icon-link">자세히 보기 <i class="ri-arrow-right-up-line"></i></a>
+        </div>
+        </li>
+    </ul>
+-->
+
+</section>
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@section03@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<section class="section" id="section03">
+    <div class="maxline">
+        <div class="main-textline3">
+          <h2 class="fontwhite">Our Business</h2>
+          <p class="fontwhite">(주)한국기술은 국내 최초/최대 3DSYSTEMS(쓰리디시스템즈)
+            공식 인증 파트너사입니다.</p>
+    </div>
+    </div>
+
+
+
+    <div class="slider-container">
+    <ul class="sec02ul slider-track" id="sliderTrack">
+                <li class="text-content text-l">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Main Business</h3>
+                    <div class="text-divider"></div>
+                    <p>토탈 3D 프린팅 솔루션 제공</p>
+                    <div class="feature-badges">
+                        <span class="badge">국내 유일</span>
+                        <span class="badge">최공등급</span>
+                        <span class="badge">Platinum</span>
+                    </div>
+                </li>
+                <li class="text-content text-l">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-laptop-file"></i>
+                    </div>
+                    <h3>Educational Services</h3>
+                    <div class="text-divider"></div>
+                    <p>3D 프린팅 교육 서비스</p>
+                    <div class="feature-badges">
+                        <span class="badge">국가 선정</span>
+                        <span class="badge">SLS</span>
+                        <span class="badge">SLA</span>
+                    </div>
+                </li>
+                <li class="text-content text-l">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-truck-field"></i>
+                    </div>
+                    <h3>Supply Service</h3>
+                    <div class="text-divider"></div>
+                    <p>3D 프린터 공급</p>
+                    <div class="feature-badges">
+                        <span class="badge">프린터 공급</span>
+                        <span class="badge">프린팅 SW 공급</span>
+                    </div>
+                </li>
+                <li class="text-content text-l">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-pen"></i>
+                    </div>
+                    <h3>Production</h3>
+                    <div class="text-divider"></div>
+                    <p>시제품 제작 및 역설계 서비스</p>
+                    <div class="feature-badges">
+                        <span class="badge">Total 3D Printing 제공</span>
+                        <span class="badge">Solution 제공</span>
+                    </div>
+                </li>
+                <li class="text-content text-l">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3>New Business</h3>
+                    <div class="text-divider"></div>
+                    <p>기술지원 서비스</p>
+                    <div class="feature-badges">
+                        <span class="badge">업계 최고의 고객기술 지</span>
+                        <span class="badge">차별화된 고객관리</span>
+                    </div>
+                </li>
+                <li class="text-content text-l">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Main Business</h3>
+                    <div class="text-divider"></div>
+                    <p>토탈 3D 프린팅 솔루션 제공</p>
+                    <div class="feature-badges">
+                        <span class="badge">국내 유일</span>
+                        <span class="badge">최공등급</span>
+                        <span class="badge">Platinum</span>
+                    </div>
+                </li>
+                <li class="text-content text-l">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-laptop-file"></i>
+                    </div>
+                    <h3>Educational Services</h3>
+                    <div class="text-divider"></div>
+                    <p>3D 프린팅 교육 서비스</p>
+                    <div class="feature-badges">
+                        <span class="badge">국가 선정</span>
+                        <span class="badge">SLS</span>
+                        <span class="badge">SLA</span>
+                    </div>
+                </li>
+                <li class="text-content text-l">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-truck-field"></i>
+                    </div>
+                    <h3>Supply Service</h3>
+                    <div class="text-divider"></div>
+                    <p>3D 프린터 공급</p>
+                    <div class="feature-badges">
+                        <span class="badge">프린터 공급</span>
+                        <span class="badge">프린팅 SW 공급</span>
+                    </div>
+                </li>
+                <li class="text-content text-l">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-pen"></i>
+                    </div>
+                    <h3>Production</h3>
+                    <div class="text-divider"></div>
+                    <p>시제품 제작 및 역설계 서비스</p>
+                    <div class="feature-badges">
+                        <span class="badge">Total 3D Printing 제공</span>
+                        <span class="badge">Solution 제공</span>
+                    </div>
+                </li>
+                <li class="text-content text-l">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3>New Business</h3>
+                    <div class="text-divider"></div>
+                    <p>기술지원 서비스</p>
+                    <div class="feature-badges">
+                        <span class="badge">업계 최고의 고객기술 지</span>
+                        <span class="badge">차별화된 고객관리</span>
+                    </div>
+                </li>
+    </ul>
+    </div>
+</section>
+</main>
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@section04@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<section class="section" id="section04">
+  <div class="menu-list">
+    <h2 data-index="0" class="menu-item active"> PRINTER</h2>
+    <h2 data-index="1" class="menu-item"> SCANNER</h2>
+    <h2 data-index="2" class="menu-item"> PROTOTYPE</h2>
+  </div>
+ <div class="swiper vertical-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" style="background:white;">
+      <img class="slide-image" src="https://www.3dwasp.com/wp-content/uploads/2024/12/POWER_WASP_45_HDP_large_scale_pellet_3d_printer_PH_WASP-uai-1889x1063.jpg" />
+      <div class="slide-title"><strong>01</strong> 3D 프린터</div>
+      <div class="moreview">다양한 재료로 시제품 제작부터 실제 제품 생산까지 가능한
+6가지 방식의 3DSystems 프린터를 제공합니다.</div>
+    </div>
+    <div class="swiper-slide" style="background:white;">
+      <img class="slide-image" src="https://www.creaform3d.com/-/media/project/oneweb/oneweb/creaform3d/products/portable-3d-scanners/optical-3d-scanner-metrascan/preview-video-metrascan-3d.jpg?la=ko&revision=6dc7204e-1255-4785-9a8d-b04b6419c827" />
+      <div class="slide-title"><strong>02</strong> 3D 스캐너 & 소프트웨어</div>
+      <div class="moreview">높은 정확성과 안정성을 갖춘 스캐너와 역설계, 검사,
+3D 프린팅, 해석에 탁월한 소프트웨어를 만나보세요.</div>
+    </div>
+    <div class="swiper-slide" style="background:white;">
+      <img class="slide-image" src="https://bolesolutions.com/wp-content/uploads/2025/01/The-two-main-services-from-Bole-Solutions-5-axis-Machining-and-Rapid-Prototyping.jpg" />
+      <div class="slide-title"><strong>03</strong> 시제품 & 역설계</div>
+      <div class="moreview">3D프린팅, 진공주형,역설계 등 고객의 요구사항에 최적화된 시제품 제작 서비스를 지원합니다.</div>
+    </div>
+    <!-- 더 많은 슬라이드 추가 가능 -->
+  </div>
+  </div>
+  </section>
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@section05@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <section class="main-slider-section section" id="section05">
+    <div class="maxline">
+    <div class="main-textline3">    
+        <h4><strong>products</strong></h2>
+        <h2>Introducing</h2>
+        <h2>K-TECH Products,</h2>
+        <h2 class="ml10">echnologies That Create a</h2>
+        <h2 class="ml20">Sustainable Prosperous Future</h2>
+    </div>
+    </div> 
+        <div class="mainslider-container">
+            <div class="mainslider-track" id="mainsliderTrack">
+                <div class="mainslide">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.ktech21.com/admin/data/product2/2102020007_R.png" alt="카메라" />
+              <div class="mainslide-text-b ">
+                <p>빠른 설계반복과 검증을 위해 매월 최대 500개까지 제작 가능한 당일 원형제작 3D프린터</p>
+                <h3>DLP Figure 4 독립형</h3>
+              </div>
+            </a>
+            </div>
+            <div class="mainslide">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.ktech21.com/admin/data/product2/2102040004_R.png" alt="A18" />
+              <div class="mainslide-text-b ">
+                <p>정밀한 기하형상, 매끄러운 표면, 탁월한 부품 품질과 정확도를 보증하는 SLA 프린터</p>
+                <h3>SLA ProJet 7000 HD</h3>
+              </div>
+            </a>
+            </div>
+            <div class="mainslide">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.ktech21.com/admin/data/product2/2205110001_R.png" alt="설계" />
+              <div class="mainslide-text-b ">
+                <p>매끄러운 대형 부품을 생산할 수 있는 확장형 스마트 팩토리 금속 적층 제조 프린터</p>
+                <h3>DMP Factory 500</h3>
+              </div>
+            </a>
+            </div>
+            <div class="mainslide">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.ktech21.com/admin/data/product2/2307200001_M1.png" alt="환경" />
+              <div class="mainslide-text-b ">
+                <p>콜드 스프레이 방식의 금속 3D 프린터로 컨테이너화되어 이동 설치에 용이</p>
+                <h3>XSPEE3D</h3>
+              </div>
+              </a>
+            </div>
+            <div class="mainslide">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.ktech21.com/admin/data/product2/2102040006_R.png" alt="보안" />
+              <div class="mainslide-text-b ">
+                <p>탁월한 해상도와 정확도를 자랑하는 초대형 SLA 플래그십 프린터</p>
+                <h3>SLA ProX 950</h3>
+              </div>
+              </a>
+            </div>
+            <div class="mainslide">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.ktech21.com/admin/data/product2/2102230001_M1.jpg" alt="보안" />
+              <div class="mainslide-text-b ">
+                <p>Entry Level의 3D 스캐너를 옵션으로 장착이 가능한 독보적인 모델입니다.</p>
+                <h3>Absolute Arm 6축 83</h3>
+              </div>
+              </a>
+            </div>
+            <div class="mainslide">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.ktech21.com/admin/data/product2/2102230002_M1.png" alt="보안" />
+              <div class="mainslide-text-b ">
+                <p>접촉식 프로빙 측정 전용 Absolute Arm 6축 장비는 Entry Level의 3D 스캐너를 옵션으로 장착이 가능한 독보적인 모델입니다.</p>
+                <h3>Absolute Arm 6축 85</h3>
+              </div>
+              </a>
+            </div>
+            <div class="mainslide">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="https://www.ktech21.com/admin/data/product2/2502030002_M1.png" alt="보안" />
+              <div class="mainslide-text-b ">
+                <p>Artec의 첫 번째 표적 기반 3D 레이저 스캐너를 통해 ISO 인증을 받은 계측 등급의 3D 스캐닝을 손쉽게 실행합니다.</p>
+                <h3>Artec Point</h3>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-buttons">
+          <button class="nav-btn" id="prevBtn">&#10094;</button>
+          <button class="nav-btn" id="nextBtn">&#10095;</button>
+        </div>
+    </section>
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@section06@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+<section class="news-room" id="section06">
+
+<div class="maxline-c">
+    <div class="main-textline3 news-header">
+    <h2>NEWS ROOM</h2>
+    <div class="donw-day"><a href="#" class="more-link">뉴스 더보기 <i class="ri-arrow-right-up-line"></i></a></div>
+
+</div>
+
+  <div class="news-list">
+<a href="#">
+    <div class="news-card">
+
+      <div class="news-text">
+        <h3>게시물 상세폼넥스트 2024, SLS 3D프린터로 혁신을 만들다</h3>
+        <p>3D프린팅 기술의 중심, 폼넥스트 2024가 열리며 세계 각국의 전문가와 혁신 기술들이 한자리에 모였습니다.</p>
+      </div>
+      <div class="donw-day">
+      <span class="news-date">2025-06-26</span>
+      </div>
+     
+    </div>
+ </a>
+<a href="#">
+    <div class="news-card">
+ 
+      <div class="news-text">      
+        <h3>"폼넥스트 2024"에서 만난 혁신의 현장</h3>
+        <p>SLA(Stereolithography) 3D프린터는 정밀성과 표면 품질에서 독보적인 장점을 제공 </p>
+      </div>
+      <div class="donw-day">
+      <span class="news-date">2025-03-16</span>
+      </div>
+      
+    </div>
+</a>
+<a href="#"> 
+    <div class="news-card">
+     
+      <div class="news-text">
+        <h3>독일 프랑크푸르트 메쎄 전시장 FORMNEXT 2024에서 EXT TITAN</h3>
+        <p>독일 프랑크푸르트 메쎄 전시장 FORMNEXT 2024에서 EXT TITAN을 만나다</p>
+      </div>
+      <div class="donw-day">
+      <span class="news-date">2025-01-16</span>
+      </div>
+    
+    </div>
+</a>
+<a href="#"> 
+    <div class="news-card">
+     
+      <div class="news-text">
+        <h3>해군의 AM Center of Excellence를 위해 SPEE3D 콜드 스프레이 3D 프린터 구매</h3>
+        <p>Austal USA AT가 미국 해군의 AM CoE에 WarpSPEE3D 프린터를 도입해 해군의 국방 제조 훈련 프로그램을 지원</p>
+      </div>
+      <div class="donw-day">
+      <span class="news-date">2024-10-26</span>
+      </div>
+    
+    </div>
+</a>
+  </div>
+</div>
+</section>
+
+<section class="section" id="section07">
+      <div class="slider-container">
+      <ul class="slider-track">
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2101260227366_1.png" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2101260227501_1.jpg" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2101260228048_1.png" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2101260241425_1.jpg" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2101260243592_1.png" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2101260248029_1.png" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2101260249477_1.png" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2101260253585_1.jpg" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2101260303047_1.jpg" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2104290347476_1.jpg" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2104290601032_1.jpg" alt=""></li>
+        <li class="site-w"><img src="https://www.ktech21.com/admin/data/bbs/partner/S2401310122417_1.png" alt=""></li>
+      </ul>
+    </div>
+</section>
+
+</div>
+</div>
+
+
+</body>
+
+<footer>
+
+
+
+  <div class="footer-right">
+    <div class="maxline-f">
+    <div class="footer-left">
+      <h4><strong>A K-tech company</strong><br>K-tech의 기술력을 더하다.</h4>
+      <div>
+      <div><a href="#">PSM <i class="ri-arrow-right-up-line"></i></a></div>
+      <div><a href="#">3D PRINTER <i class="ri-arrow-right-up-line"></i></a></div>
+      </div>
+    </div>
+    <div class="footer-nav">
+      <a href="#">SITEMAP</a>
+      <a href="#">CONTACT</a>
+      <a href="#">회사방침</a>
+      <a href="#">개인정보취급방침</a>
+      <a href="#">이메일 무단 수집 거부</a>
+      <a href="#">저작권 침해행위 거부</a>
+    </div>
+
+    <div class="footer-logo">
+      <div class="ft-line">
+        <a href="#" class="header-logo"><span class="blind">k-tech</span></a>
+        <div>
+          주식회사 한국기술대표자 : 송종하사업자등록번호 : 138-81-80666
+        </div>
+        <div>
+          경기 안양시 동안구 흥안대로 415 (평촌동, 두산벤처다임) 611~612호 / 210호, 212호(쇼룸 및 시제품제작실)
+        </div>
+        <div>
+          대표번호 : 1899-8731전화 : 031-478-4950팩스 : 031-478-4954이메일 : sales@ktech21.com
+
+        </div>
+      
+        <div class="footer-copy">Copyright© 2021 K-Tech Co. Ltd. All Rights Reserved.
+          
+          <br>Site by THREEWAY.</div>
+      </div>
+      <!--
+      <div class="footer-msg">
+        어제보다 더 행복한 오늘,<br>오늘보다 더 밝은 내일의 K-tech
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-sns">
+        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+      </div>
+      <select class="family-site">
+        <option>패밀리 사이트</option>
+        <option value="#">Hanwha</option>
+        <option value="#">Hanwha Defense</option>
+      </select>
+    </div>
+    -->
+  </div>
+</div>
+</div>
+
+  
+  </footer>
+
+</html>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    
+gsap.registerPlugin(ScrollTrigger );
+
+
+
+window.addEventListener('load', () => {
+
+
+
+   // 텍스트 등장 애니메이션
+gsap.from("#section02 .main-textline3", {
+  scrollTrigger: {
+    trigger: "#section02",
+    start: "top 80%", // 뷰포트 80%쯤에서 시작
+    toggleActions: "play reverse play reverse"
+  },
+  opacity: 0,
+  y: 50,
+  duration: 1,
+  ease: "power2.out"
+});
+
+gsap.from("#section03", {
+  scrollTrigger: {
+    trigger: "#section03",
+    start: "top 80%", // 섹션의 top이 뷰포트 80%에 닿으면 시작
+    toggleActions: "play reverse play reverse", // 한 번만 실행
+  },
+  opacity: 0,
+  y: 50,
+  duration: 1,
+  ease: "power2.out"
+});
+
+gsap.from("#section04", {
+  scrollTrigger: {
+    trigger: "#section04",
+    start: "top 60%", // 섹션의 top이 뷰포트 80%에 닿으면 시작
+    toggleActions: "play reverse play reverse", // 한 번만 실행
+  },
+  opacity: 0,
+  y: 50,
+  duration: 1,
+  ease: "power2.out"
+});
+
+const headers5 = gsap.utils.toArray("#section05 .main-textline3 h2");
+
+// 순차 애니메이션 설정
+headers5.forEach((el, i) => {
+  gsap.from(el, {
+    scrollTrigger: {
+      trigger: "#section05",
+      start: "top 80%",
+      toggleActions: "play reverse play reverse",
+    },
+    x: i % 2 === 0 ? -100 : 100, // 짝수는 왼쪽, 홀수는 오른쪽
+    opacity: 0,
+    duration: 1,
+    delay: i * 0.15, // 순차 등장
+    ease: "power2.out"
+  });
+});
+gsap.from(".footer-left", {
+  scrollTrigger: {
+    trigger: ".footer-left",
+    start: "top 90%",
+    toggleActions: "play reverse play reverse", // 들어오면 play, 나가면 reverse (반복 가능)
+    markers: false, // 개발용: true로 바꾸면 시작점 시각화
+  },
+  opacity: 0,
+  y: 50,
+  duration: 1,
+  ease: "power2.out"
+});
+})//load Event
+
+
+
+    /*-------------------------------------------header-------------------------------------------*/
+        document.addEventListener('DOMContentLoaded', function() {
+            const header = document.getElementById('header');
+            const mobileToggle = document.getElementById('mobileToggle');
+            const mobileMenu = document.getElementById('mobileMenu');
+            
+            // 스크롤 이벤트
+      /*      window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });*/
+            
+            // 모바일 토글
+            mobileToggle.addEventListener('click', function() {
+                this.classList.toggle('active');
+                mobileMenu.classList.toggle('active');
+                
+                // 메뉴가 열렸을 때 스크롤 방지
+                if (mobileMenu.classList.contains('active')) {
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    document.body.style.overflow = 'auto';
+                }
+            });
+            
+            // 모바일 메뉴 항목 클릭 시 토글
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const dropdown = this.nextElementSibling;
+                    if (dropdown && dropdown.classList.contains('mobile-dropdown')) {
+                        dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+            
+            // 윈도우 리사이즈 시 모바일 메뉴 초기화
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    mobileMenu.classList.remove('active');
+                    mobileToggle.classList.remove('active');
+                    document.body.style.overflow = 'auto';
+                    
+                    // 모바일 드롭다운 숨기기
+                    const mobileDropdowns = document.querySelectorAll('.mobile-dropdown');
+                    mobileDropdowns.forEach(dropdown => {
+                        dropdown.style.display = 'none';
+                    });
+                }
+            });
+            
+            // 외부 클릭 시 모바일 메뉴 닫기
+            document.addEventListener('click', function(e) {
+                if (!header.contains(e.target) && mobileMenu.classList.contains('active')) {
+                    mobileMenu.classList.remove('active');
+                    mobileToggle.classList.remove('active');
+                    document.body.style.overflow = 'auto';
+                }
+            });
+        });
+
+
+
+
+/*-------------------------------------------section01-------------------------------------------*/
+        class VideoCarousel {
+            constructor() {
+                this.currentSlide = 0;
+                this.totalSlides = 4;
+                this.isPlaying = true;
+                this.slideDuration = 8000; // 8초
+                this.currentTime = 0;
+                this.interval = null;
+                this.progressInterval = null;
+                
+                this.slides = document.querySelectorAll('.video-slide');
+                this.videos = document.querySelectorAll('.video-slide video');
+                this.indicators = document.querySelectorAll('.indicator');
+                this.playPauseBtn = document.getElementById('playPauseBtn');
+                this.progressBar = document.getElementById('progressBar');
+                this.progressContainer = document.getElementById('progressContainer');
+                this.timeDisplay = document.getElementById('timeDisplay');
+                
+                this.init();
+            }
+            
+            init() {
+                this.preloadVideos();
+                this.startCurrentVideo();
+                this.startAutoPlay();
+                this.addEventListeners();
+                this.updateTimeDisplay();
+                this.startProgressUpdate();
+            }
+            
+            preloadVideos() {
+                this.videos.forEach((video, index) => {
+                    video.addEventListener('loadeddata', () => {
+                        console.log(`비디오 ${index + 1} 로드 완료`);
+                    });
+                    video.load();
+                });
+            }
+            
+            startCurrentVideo() {
+                this.videos.forEach((video, index) => {
+                    if (index === this.currentSlide) {
+                        video.currentTime = 0;
+                        video.play().catch(e => console.log('비디오 재생 실패:', e));
+                    } else {
+                        video.pause();
+                    }
+                });
+            }
+            
+            addEventListeners() {
+                this.playPauseBtn.addEventListener('click', () => this.togglePlayPause());
+                
+                this.progressContainer.addEventListener('click', (e) => {
+                    const rect = this.progressContainer.getBoundingClientRect();
+                    const clickX = e.clientX - rect.left;
+                    const percentage = clickX / rect.width;
+                    this.currentTime = percentage * this.slideDuration;
+                    this.updateProgress();
+                });
+                
+                this.indicators.forEach((indicator, index) => {
+                    indicator.addEventListener('click', () => this.goToSlide(index));
+                });
+
+                // 키보드 이벤트
+                document.addEventListener('keydown', (e) => {
+                    switch(e.code) {
+                        case 'Space':
+                            e.preventDefault();
+                            this.togglePlayPause();
+                            break;
+                        case 'ArrowLeft':
+                            this.goToSlide(this.currentSlide > 0 ? this.currentSlide - 1 : this.totalSlides - 1);
+                            break;
+                        case 'ArrowRight':
+                            this.goToSlide((this.currentSlide + 1) % this.totalSlides);
+                            break;
+                    }
+                });
+            }
+            
+            startAutoPlay() {
+                if (this.isPlaying) {
+                    this.interval = setInterval(() => {
+                        this.nextSlide();
+                    }, this.slideDuration);
+                }
+            }
+            
+            stopAutoPlay() {
+                if (this.interval) {
+                    clearInterval(this.interval);
+                    this.interval = null;
+                }
+            }
+            
+            startProgressUpdate() {
+                this.progressInterval = setInterval(() => {
+                    if (this.isPlaying) {
+                        this.currentTime += 100;
+                        
+                        if (this.currentTime >= this.slideDuration) {
+                            this.currentTime = 0;
+                        }
+                        
+                        this.updateProgress();
+                        this.updateTimeDisplay();
+                    }
+                }, 100);
+            }
+            
+            updateProgress() {
+                const progress = (this.currentTime / this.slideDuration) * 100;
+                this.progressBar.style.width = progress + '%';
+            }
+            
+            updateTimeDisplay() {
+                const remaining = Math.ceil((this.slideDuration - this.currentTime) / 1000);
+                const minutes = Math.floor(remaining / 60);
+                const seconds = remaining % 60;
+                const formattedTime = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                this.timeDisplay.textContent = formattedTime;
+            }
+            
+            togglePlayPause() {
+                if (this.isPlaying) {
+                    this.pause();
+                } else {
+                    this.play();
+                }
+            }
+            
+            play() {
+                this.isPlaying = true;
+                this.playPauseBtn.innerHTML = '정지';
+                this.startAutoPlay();
+                this.videos[this.currentSlide].play().catch(e => console.log('비디오 재생 실패:', e));
+            }
+            
+            pause() {
+                this.isPlaying = false;
+                this.playPauseBtn.innerHTML = '재생';
+                this.stopAutoPlay();
+                this.videos[this.currentSlide].pause();
+            }
+            
+            goToSlide(index) {
+                if (index === this.currentSlide) return;
+                
+                this.currentSlide = index;
+                this.currentTime = 0;
+                this.updateSlides();
+                this.updateIndicators();
+                this.startCurrentVideo();
+                
+                if (this.isPlaying) {
+                    this.stopAutoPlay();
+                    this.startAutoPlay();
+                }
+            }
+            
+            nextSlide() {
+                this.currentSlide = (this.currentSlide + 1) % this.totalSlides;
+                this.currentTime = 0;
+                this.updateSlides();
+                this.updateIndicators();
+                this.startCurrentVideo();
+            }
+            
+            updateSlides() {
+                this.slides.forEach((slide, index) => {
+                    slide.classList.toggle('active', index === this.currentSlide);
+                });
+            }
+            
+            updateIndicators() {
+                this.indicators.forEach((indicator, index) => {
+                    indicator.classList.toggle('active', index === this.currentSlide);
+                });
+            }
+        }
+
+        // 페이지 로드 후 초기화
+        document.addEventListener('DOMContentLoaded', () => {
+            new VideoCarousel();
+        });        
+
+/*-------------------------------------------section02-------------------------------------------*/
+const cards = document.querySelectorAll('.card');
+const section02 = document.getElementById('section02');
+const bgs = document.querySelectorAll('.bg>div')
+
+cards.forEach((card, i) => {
+  card.addEventListener('mouseover', () => {
+ //   card.style.background = '#000';
+    bgs.forEach(bg => {
+      bg.classList.remove('active')
+    })
+    bgs[i].classList.add('active')
+  })
+  card.addEventListener('mouseout', () => {
+    card.style.background = 'none'
+  })
+})
+/*
+const cards = document.querySelectorAll('.card');
+const section02 = document.getElementById('section02');
+
+
+// 호버 상태 유지
+cards.forEach(card => {
+  const hoverClass = card.dataset.hover;
+
+  card.addEventListener('mouseenter', () => {
+    cards.forEach(c => c.classList.remove('hover1', 'hover2', 'hover3'));
+    cards.forEach(c => c.classList.add(hoverClass));
+  });
+});
+
+window.addEventListener('scroll', () => {
+  const sectionTop = section02.offsetTop;
+  const sectionHeight = section02.offsetHeight;
+  const scrollY = window.scrollY;
+  const relativeScroll = scrollY - sectionTop;
+
+  if (relativeScroll >= 0 && relativeScroll <= sectionHeight) {
+    const progress = relativeScroll / sectionHeight;     // 0~1 비율
+    const yPos = Math.max(30 - progress * 70, 0);         // 50% → 0%
+
+    cards.forEach(card => {
+      card.style.backgroundPositionY = `${yPos}%`;
+    });
+  } else {
+    cards.forEach(card => {
+      card.style.backgroundPositionY = '50%'; // 기본값으로 복원
+    });
+  }
+});
+*/
+/*-------------------------------------------section03-------------------------------------------*/
+/*-------------------------------------------section04-------------------------------------------*/
+  const swiper = new Swiper(".vertical-swiper", {
+    direction: "vertical",
+    slidesPerView: 'auto',
+    centeredSlides: true,
+    spaceBetween: 100,
+    mousewheel: {
+        sensitivity: 1,
+        releaseOnEdges: true, // 중요!
+    },
+    speed: 800,
+    on: {
+      slideChange: function () {
+        updateActiveMenu(swiper.activeIndex);
+      }
+    }
+  });
+
+gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.create({
+  trigger: '#triggerStart',
+  start: 'center center',
+  end: 'bottom center',
+  onEnter: () => {
+    document.body.classList.add('swiper-active');
+    swiper.allowTouchMove = true;
+    swiper.mousewheel.enable();
+  },
+  onLeaveBack: () => {
+    document.body.classList.remove('swiper-active');
+    swiper.allowTouchMove = false;
+    swiper.mousewheel.disable();
+  }
+});
+  const menuItems = document.querySelectorAll('.menu-item');
+
+  menuItems.forEach((item, index) => {
+    item.addEventListener('click', () => {
+      swiper.slideTo(index);
+      updateActiveMenu(index);
+    });
+  });
+
+  function updateActiveMenu(activeIndex) {
+    menuItems.forEach((item, index) => {
+      item.classList.toggle('active', index === activeIndex);
+    });
+  }
+
+// 스크롤이 마지막 슬라이드에 도달했을 때 브라우저 스크롤 활성화
+swiper.el.addEventListener('wheel', (e) => {
+  const isLastSlide = swiper.isEnd;
+  const deltaY = e.deltaY;
+
+  if (isLastSlide && deltaY > 0) {
+    // 브라우저 스크롤로 넘어가도록 overflow 변경
+    document.body.style.overflow = 'auto';
+    // swiper 감싼 wrapper는 고정 해제
+    document.querySelector('.swiper-wrappe').style.height = 'auto';
+  }
+});
+
+/*-------------------------------------------section05-------------------------------------------*/
+/* ------------------------ 공통 변수 ------------------------ */
+const track      = document.getElementById('mainsliderTrack');
+const slides     = document.querySelectorAll('.mainslide');
+const prevBtn    = document.getElementById('prevBtn');
+const nextBtn    = document.getElementById('nextBtn');
+
+let currentIndex     = 0;
+let isDragging       = false;
+let startX           = 0;
+let currentTranslate = 0;
+let prevTranslate    = 0;
+let animationID      = 0;
+
+const slideWidth = () => slides[0].offsetWidth;
+
+/* -------------------------------------------------- */
+/* 슬라이드 이동                                      */
+/* -------------------------------------------------- */
+function setPositionByIndex(withAnim = false) {
+  if (withAnim) track.style.transition = 'transform 0.5s ease';
+  else          track.style.transition = 'none';
+
+  currentTranslate = -currentIndex * slideWidth();
+  prevTranslate    = currentTranslate;
+  setSliderPosition();
+  updateButtons();
+}
+
+function setSliderPosition() {
+  /* GPU 가속 */
+  track.style.transform = `translate3d(${currentTranslate}px,0,0)`;
+}
+
+function updateButtons() {
+  prevBtn.disabled = currentIndex === 0;
+  nextBtn.disabled = currentIndex === slides.length - 1;
+}
+
+/* -------------------------------------------------- */
+/* 버튼                                               */
+/* -------------------------------------------------- */
+prevBtn.addEventListener('click', () => {
+  if (currentIndex > 0) {
+    currentIndex--;
+    setPositionByIndex(true);
+  }
+});
+
+nextBtn.addEventListener('click', () => {
+  if (currentIndex < slides.length - 1) {
+    currentIndex++;
+    setPositionByIndex(true);
+  }
+});
+
+/* -------------------------------------------------- */
+/* 드래그/스와이프                                    */
+/* -------------------------------------------------- */
+track.addEventListener('mousedown',  dragStart);
+track.addEventListener('touchstart', dragStart, { passive: true });
+
+track.addEventListener('mousemove',  dragMove);
+track.addEventListener('touchmove',  dragMove, { passive: false });
+
+track.addEventListener('mouseup',    dragEnd);
+track.addEventListener('mouseleave', dragEnd);
+track.addEventListener('touchend',   dragEnd);
+
+function dragStart(e) {
+  /* 왼쪽 버튼만 허용 */
+  if (e.type === 'mousedown' && e.button !== 0) return;
+
+  isDragging     = true;
+  startX         = getX(e);
+  prevTranslate  = currentTranslate;   // ← 여기!!
+  track.style.cursor = 'grabbing';
+
+  /* 애니메이션 루프 시작 */
+  animationID = requestAnimationFrame(animation);
+}
+
+function dragMove(e) {
+  if (!isDragging) return;
+  const currentX = getX(e);
+  currentTranslate = prevTranslate + currentX - startX;
+}
+
+function dragEnd() {
+  if (!isDragging) return;
+  isDragging = false;
+  track.style.cursor = 'grab';
+  cancelAnimationFrame(animationID);
+
+  const movedBy = currentTranslate - prevTranslate;
+  const threshold = 50;               // px 단위
+
+  if (movedBy < -threshold && currentIndex < slides.length - 1) currentIndex++;
+  if (movedBy >  threshold && currentIndex > 0)                 currentIndex--;
+
+  setPositionByIndex(true);
+}
+
+function animation() {
+  setSliderPosition();
+  if (isDragging) requestAnimationFrame(animation);
+}
+
+function getX(e) {
+  return e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
+}
+
+/* -------------------------------------------------- */
+/* 링크 클릭 방지                                     */
+/* -------------------------------------------------- */
+slides.forEach((mainslide) => {
+  const link = mainslide.querySelector('a');
+  if (link) {
+    link.addEventListener('click', (e) => {
+      if (isDragging) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      }
+    });
+  }
+});
+
+/* -------------------------------------------------- */
+/* 초기화                                             */
+/* -------------------------------------------------- */
+window.addEventListener('resize', () => setPositionByIndex());
+setPositionByIndex();
+
+/* 선택 사항: 트랙에 will-change 권장 */
+track.style.willChange = 'transform';
+track.style.cursor     = 'grab';
+    </script>

@@ -127,7 +127,9 @@
       font-weight: 500;
       line-height: 1.5;
     }
-    
+    p{
+        margin-bottom:6px;
+    }
     @media (max-width: 768px) {
       h1 { font-size: 32px; }
       h2 { font-size: 26px; }

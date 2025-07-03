@@ -1325,8 +1325,22 @@ section#section06 {
     margin-top: 10px;
 }
 
+/*------section07*/
+
+#section07{
+  height: 50vh;
+}
+#section07 ul.slider-track {
+    gap: 30px;
+}
+#section07 img {
+    height: 80px;
+}
 
 /*------footer*/
+footer .header-logo{
+  margin-bottom: 16px;
+}
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -1453,14 +1467,4 @@ footer strong{
   }
 }
 
-/*------section07*/
 
-#section07{
-  height: 50vh;
-}
-#section07 ul.slider-track {
-    gap: 30px;
-}
-#section07 img {
-    height: 80px;
-}

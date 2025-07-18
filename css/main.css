@@ -636,7 +636,7 @@ section#section02 {
     border-radius: 10% 10% 0px 0px;
 }
 .bg>div.active {opacity: 1; transition: all 1s ease-in;}
-.bg1 {background-image:  url('http://pjdesign.co.kr/images/main/sec1_bg.jpg');}
+.bg1 {background-image:  url('../img/sec1_bg.jpg');}
 .bg2 {background-image:  url('../img/se002.jpg');}
 .bg3 {background-image:  url('../img/se004.jpg');}
     .card-container {
